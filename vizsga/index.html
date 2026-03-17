@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trio könyvelés</title>
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monomakh&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="offcanvas offcanvas-bottom bg-secondary show" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="cookieLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="cookieLabel">Az oldal sütiket használ!</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>A weboldalunk cooki-kat használ, az Önök felhasználói élményének elemzési céljára. Az alábbi gombra kattintva elfogadhatja vagy elutasíthatja a cookikat. További információk a Cookie-król <a href="https://european-union.europa.eu/cookies_hu" target="_blank">itt olvashat.</a></p>
+      <button type="button" class="btn btn-primary btn-sm ms-2" data-mdb-dismiss="offcanvas">Elfogadom</button>
+      <button type="button" class="btn btn-outline-primary btn-sm ms-2"  data-mdb-dismiss="offcanvas" >Elutasítom</button>
+    </div>
+  </section>
+  <header >
+    <nav id="navBar" class="navbar navbar-expand-lg fixed-top bg-primary text-secondary-emphasis">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="trio-accounting-logo.png" alt="Trio accounting logo" width="100" >
+        </a>
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a class="nav-link fw-bold p-1" aria-current="page" href="#hero" role="button">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link fw-bold p-1" aria-current="page" href="#pricing" role="button">Szolgáltatásaink</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link  fw-bold p-1" href="#aboutUs" role="button">Rólunk</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link  fw-bold p-1" href="#contact" role="button">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main data-bs-spy="scroll" data-bs-target="#navBar">
+    <section id="hero" class="container d-flex p-4 mx-0 mt-4 justify-content-end">
+      <div
+        class="position-relative d-flex justify-content-center flex-column padding p-4 bg-primary rounded-4 text-secondary">
+        <h3 class="mt-4 mb-4">Könyvelőt keresel?</h3>
+        <p>A Trio Office-nál hiszünk abban, hogy a könyvelés nem csupán számokról szól, hanem
+          biztonságról, bizalomról és gördülékeny ügyintézésről. Több éves tapasztalattal a hátunk mögött főként egyéni
+          vállalkozások teljes körű könyvelésére specializálódtunk – az alapítástól kezdve egészen a havi könyvelésig és
+          éves bevallásokig.</p>
+        <ul>
+          <li>
+            <p><b class="fs-4">Teljes körű ügyintézés</b> – Nemcsak könyvelünk, hanem segítünk a vállalkozás indításában
+              és minden szükséges regisztráció elvégzésében.</p>
+          </li>
+          <li>
+            <p><b class="fs-4">Pontosság és szakértelem</b> – Munkánkat magas szintű szakmai tudás és precizitás
+              jellemzi, hogy vállalkozásod pénzügyei mindig a legjobb kezekben legyenek.</p>
+          </li>
+          <li>
+            <p><b class="fs-4">Segítőkészség és elérhetőség</b> – Fontos számunkra, hogy ügyfeleink bátran
+              fordulhassanak hozzánk bármilyen kérdéssel vagy problémával.</p>
+          </li>
+        </ul>
+        <h3>Ha egy megbízható, ügyfélközpontú könyvelőt keresel, aki leveszi a pénzügyi terheket a válladról, akkor jó
+          helyen jársz!</h3>
+      </div>
+    </section>
+    <section id="pricing" class="bg-white p-4">
+      <div class="pricing-text d-flex flex-column align-items-center m-5">
+        <h5 class="fs-1 mb-5 fw-bold">Mivel foglalkozunk?</h5>
+        <p>A Trio Office-nál elsősorban egyéni vállalkozók könyvelésére specializálódtunk, legyen szó <b>KATA-s,
+            átalányadózó vagy tételes SZJA-s vállalkozásról.</b> Teljes körű szolgáltatást nyújtunk az indulástól kezdve
+          a
+          havi könyvelésen át az éves bevallásokig, hogy vállalkozásod pénzügyei mindig rendezetten és szabályosan
+          működjenek.</p>
+        <p>Emellett <b>magánszemélyek adózási kérdéseiben is segítünk.</b> Legyen szó <b>SZJA bevallás elkészítéséről
+            vagy
+            javításáról, adókedvezmények kalkulációjáról és igénybevételéről,</b> számíthatsz ránk.</p>
+        <p>Ha szeretnéd pénzügyeidet biztonságban tudni, keress minket bizalommal!
+        </p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center ">
+        <div class="col d-flex justify-content-center">
+          <div class="card h-100 rounded-4" style="width: 18rem;">
+            <div class="card-body bg-primary text-secondary rounded-top-4">
+              <h5 class="card-title">KATA</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Dedikált könyvelő</li>
+              <li class="list-group-item">Pénzügyi nyilvántartás vezetése</li>
+              <li class="list-group-item">Tárhelyfigyelés</li>
+              <li class="list-group-item">Telefonos ügyfélszolgálat</li>
+              <li class="list-group-item">Éves bevallás elkészítése</li>
+              <li class="list-group-item">Online kapcsolattartás</li>
+              <li class="list-group-item">Havi egy óra ingyenes konzultáció</li>
+              <li class="list-group-item">-</li>
+            </ul>
+            <div class="card-footer">
+              <a href="#contact" class="btn btn-primary">Árajánlatért vegye fel velünk a kapcsolatot!</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col d-flex justify-content-center">
+          <div class="card h-100 rounded-4" style="width: 18rem;">
+            <div class="card-body bg-primary text-secondary rounded-top-4">
+              <h5 class="card-title">Átalányadózó</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Dedikált könyvelő</li>
+              <li class="list-group-item">Teljeskörű könyvelés</li>
+              <li class="list-group-item">Tárhelyfigyelés</li>
+              <li class="list-group-item">Telefonos ügyfélszolgálat</li>
+              <li class="list-group-item">Negyedéves bevallás elkészítése</li>
+              <li class="list-group-item">HIPA bevallás elkészítése</li>
+              <li class="list-group-item">Online kapcsolattartás</li>
+              <li class="list-group-item">Havi egy óra ingyenes konzultáció</li>
+            </ul>
+            <div class="card-footer">
+              <a href="#contact" class="btn btn-primary">Árajánlatért vegye fel velünk a kapcsolatot!</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col d-flex justify-content-center">
+          <div class="card h-100 rounded-4" style="width: 18rem;">
+            <div class="card-body bg-primary text-secondary rounded-top-4">
+              <h5 class="card-title">Tételes SZJA</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Dedikált könyvelő</li>
+              <li class="list-group-item">Teljeskörű könyvelés</li>
+              <li class="list-group-item">Tárhelyfigyelés</li>
+              <li class="list-group-item">Telefonos ügyfélszolgálat</li>
+              <li class="list-group-item">Havi bevallás elkészítése</li>
+              <li class="list-group-item">Online kapcsolattartás</li>
+              <li class="list-group-item">Havi egy óra ingyenes konzultáció</li>
+              <li class="list-group-item">-</li>
+            </ul>
+            <div class="card-footer">
+              <a href="#contact" class="btn btn-primary">Árajánlatért vegye fel velünk a kapcsolatot!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="other-services container my-5 text-primary">
+        <p class="fw-bold fs-4">Szolgáltatások</p>
+        <p class="fw-bold fs-4 text-end">Árak (ÁFA-át tartalmazzák)</p>
+        <p>Bérszámfejtés</p>
+        <p class="text-end">3000 Ft/ fő</p>
+        <p>Táppénz igénylés</p>
+        <p class="text-end">3000 Ft/ igénylés</p>
+        <p>Ellátások igénylése( CSED, GYED, GYES)</p>
+        <p class="text-end">4.000 Ft/ igénylés</p>
+        <p>A1-es igazolás</p>
+        <p class="text-end">Megegyezés alapján</p>
+        <p>Adótanácsadás</p>
+        <p class="text-end">15.000 Ft / óra</p>
+        <p>Vállalkozás alapítás( alapítás, kötelető regisztrációk)</p>
+        <p class="text-end">9.000 Ft</p>
+      </div>
+      <div class="for-persons">
+
+      </div>
+    </section>
+
+    <section id="aboutUs" class="bg-white p-4 mt-5 mb-5 text-primary">
+      <h3>A könyvelőről</h3>
+      <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center">
+        <figure class="aboutus-picture flex-shrink-0">
+          <img class="rounded-pill" src="profile.jpg" alt="Kép a könyvelőről, Eszterről">
+        </figure>
+
+        <p class="m-3"><b class="fs-3">Baksai-Csarmasz Eszter vagyok</b> <br><br>
+          Már hosszú ideje foglalkozom egyéni vállalkozások könyvelésével, és ezt a munkát nemcsak szakmámnak, hanem
+          hivatásomnak is tekintem. Hiszem, hogy a könyvelés nem csupán számokról és bevallásokról szól, hanem a
+          vállalkozók támogatásáról is, hogy biztos alapokon építhessék jövőjüket. <br><br>
+          Az egyéni vállalkozók könyvelése
+          rendkívül sokrétű, és az utóbbi években egyre több változatos kihívást tartogat. Éppen ezért elengedhetetlen a
+          folyamatos tanulás és fejlődés – én pedig mindig arra törekszem, hogy naprakész tudással és precizitással
+          segítsem ügyfeleimet. <br><br>
+          Ha olyan könyvelőt keresel, aki nemcsak számol, hanem valódi segítséget is nyújt, fordulj hozzám bizalommal!
+        </p>
+      </div>
+
+    </section>
+
+    <section id="contact" class="d-flex flex-column align-items-center bg-white p-4 mt-5 mb-5 ">
+      <h3 class="contact-header text-center my-5 fs-1">Vegye fel velünk a kapcsolatot az alábbi címek egyikén, vagy
+        foglaljon időpontot konzultációra! </h3>
+      <div
+        class="contact__info mt-4 d-flex flex-column justify-content-center flex-md-row justify-content-md-around align-items-md-center border-bottom m-5">
+        <div class="contact__info__block">
+          <h6>E-mail:</h6>
+          <p>info@triokonyveles.hu</p>
+        </div>
+        <div class="contact__info__block ">
+          <h6>Mobil:</h6>
+          <p>+363012341234</p>
+        </div>
+        <div class="contact__info__block ">
+          <h6>Iroda:</h6>
+          <p>+368812341234</p>
+        </div>
+      </div>
+      <div class="calendar-container mx-auto">
+        <div class="calendar-container__header d-flex justify-content-between">
+          <button class="calendar-container__header__button button-previous text-center" disabled>
+            <span class="fw-bold fs-4 m-0">V</span>
+          </button>
+          <p class="calendar-container__header__text">2024. Január</p>
+          <button class="calendar-container__header__button button-next text-center">
+            <span class="fw-bold fs-4 m-0">V</span>
+          </button>
+        </div>
+        <div class="calendar-container__body text-center">
+          <div class="calendar-container__body__header fw-bold">H</div>
+          <div class="calendar-container__body__header fw-bold">K</div>
+          <div class="calendar-container__body__header fw-bold">SZ</div>
+          <div class="calendar-container__body__header fw-bold">CS</div>
+          <div class="calendar-container__body__header fw-bold">P</div>
+          <div class="calendar-container__body__header fw-bold">SZ</div>
+          <div class="calendar-container__body__header fw-bold">V</div>
+
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+          <div class="calendar-container__body__cell d-flex align-items-center justify-content-center"><p class = "m-0 p-0"></p></div>
+        </div>
+
+        <div class="calendar-container__times d-flex flex-wrap">
+          <h5>Választható időpontok:</h5>
+        </div>
+      </div>
+      <form action="javascript:;" onsubmit="answerCollected()" method="post" class="contact-form bg-primary p-4 rounded text-secondary fs-4  mx-auto">
+        <label for="name">Az Ön neve: <sup>*</sup></label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Az Ön e-mail címe: <sup>*</sup></label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="phoneNumber">Az Ön telefonszáma:</label>
+        <input id="phoneNumber" name="phoneNumber" type="tel">
+
+        <label for="subject">Tárgy: <sup>*</sup></label>
+        <input id="subject" name="subject" type="text" required>
+
+        <label for="message">Üzenet: <sup>*</sup></label>
+        <textarea id="message" name="message" required class="fs-5"></textarea>
+
+
+        <label for="gdprAccept"><input type="checkbox" name="gdprAccept" id="gdprAccept" required>Kijelentem, hogy az <a
+            href="https://net-jog.hu/category/adatvedelmi-nyilatkozat-minta/" target="_blank" class="text-secondary">Adatvédelmi nyilatkozatot</a> és a <a href="https://net-jog.hu/2013/05/30/ingyenes-aszf-minta/" target="_blank" class="text-secondary">Felhasználási feltételeket</a> elolvastam és elfogadom.</label>
+
+        <button id="submit">Időpontot foglalok</button>
+      </form>
+      <div class="container alert alert-success alert-dismissible m-5 d-none" id="successfullSubmitAlert" role="alert">
+        <div>A válaszát rögzítettük! Hamarosan felvesszük önnel a kapcsolatot!</div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="py-3 my-4 bg-white">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#hero" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#pricing" class="nav-link px-2 text-body-secondary">Szolgáltatásaink</a></li>
+      <li class="nav-item"><a href="#aboutUs" class="nav-link px-2 text-body-secondary">Rólunk</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Kapcsolat</a></li>
+      <li class="nav-item"><a href="https://net-jog.hu/2013/05/30/ingyenes-aszf-minta/" target="_blank" class="nav-link px-2 text-body-secondary"> ÁSZF</a></li>
+      <li class="nav-item"><a href="https://net-jog.hu/category/adatvedelmi-nyilatkozat-minta/" target="_blank" class="nav-link px-2 text-body-secondary"> Adatvédelmi nyilatkozat</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 Triokönyvelés</p>
+  </footer>
+
+  <script src="./bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

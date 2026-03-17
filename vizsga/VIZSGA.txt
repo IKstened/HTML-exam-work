@@ -1,0 +1,48 @@
+SÜTIk dealelés
+w3 validator, info / warning belefér
+
+linkek alap színei ne legyenek sose, visited stb állapotban sem
+
+
+
+fejlesztésnél:
+
+mi a weboldal célja??
+értékesítés?
+reklám?
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Mi a weboldal célja?
+
+
+
+
+Ki fogja ezt olvasni?
+
+
+
+
+Mit akarunk meg mutatni?
+
+
+
+pricing
+
+KATA
+Általány adózó (Egyéni vállalkozó) ev.
+Tételes SZJA e.v.
+
+
+
+weboldalKinezet.jpg
+
+
+
+Form script ----------------- KÉSZ
+font ----> kész
+footer ÁSZF
+SÜTIk + local storage? ofcanvas
+
